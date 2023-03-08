@@ -1,0 +1,10 @@
+.mr-auto {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.mr-auto > a {
+    text-decoration: none;
+    color: black;
+}
