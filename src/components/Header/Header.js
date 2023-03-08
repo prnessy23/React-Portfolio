@@ -12,11 +12,11 @@ function Header() {
   return (
     <Navbar bg="light" expand="lg" expanded={expanded}>
       <Link to="/">
-        <Navbar.Brand>Peter Shaughnessy Portfolio</Navbar.Brand>
+        <Navbar.Brand>Peter Shaughnessy  Portfolio</Navbar.Brand>
       </Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleNav} />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="ml-auto">
           {/* <Link to="/about" onClick={toggleNav}>About Me</Link> */}
           <Link to="/portfolio" onClick={toggleNav}>Portfolio</Link>
           <Link to="/contact" onClick={toggleNav}>Contact</Link>
