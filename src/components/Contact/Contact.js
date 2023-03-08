@@ -50,7 +50,7 @@ function Contact() {
           {nameError && <p className='error'>{nameError}</p>}
         </div>
         <div>
-        <label htmlFor="email">Name:</label>
+        <label htmlFor="email">Email:</label>
         <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} />
         {nameError && <p className='error'>{emailError}</p>}
       </div>

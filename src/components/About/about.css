@@ -1,0 +1,34 @@
+/* Import the image from your computer */
+body {
+    background-image: url('images/avatar.png');
+    background-size: cover;
+  }
+  
+  /* Style the AboutMe component */
+  .AboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .AboutMe img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .AboutMe h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .AboutMe p {
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 600px;
+  }
+  

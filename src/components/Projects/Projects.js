@@ -28,9 +28,12 @@ const projects = [
   },
   {
     id: 5,
-    title: 'Employee Tracker',
-    githubLink: 'https://github.com/prnessy23/Employee-Tracker',
-    img: "https://github.com/prnessy23/Employee-Tracker/blob/main/images/Screenshot%202023-03-07%20at%204.21.41%20PM.png"
+    title: 'Need a Password?',
+    githubLink: 'https://github.com/prnessy23/-Need-a-Password-',
+    img:"https://github.com/prnessy23/-Need-a-Password-/raw/main/Password/Password.png"
+    
+    
+    
   },
   {
     id: 6,
