@@ -1,32 +1,35 @@
 .Contact {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     padding: 50px;
   }
   
-  .Contact h2 {
+  h2 {
+    background-color: darkgray;
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 20px;
   }
   
-  .Contact form {
+form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     max-width: 600px;
     margin-top: 20px;
   }
   
-  .Contact label {
+label {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
   }
   
-  .Contact input,
-  .Contact textarea {
+input,
+textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -35,17 +38,20 @@
     border: 1px solid #ccc;
   }
   
-  .Contact input[type="submit"] {
-    background-color: #007bff;
+input[type="submit"] {
+    background-color: lightgray;
     color: #fff;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 5px;
-    border: none;
+    border: chocolate;
     cursor: pointer;
   }
+input,textarea {
+    margin-right: 10px;
+  }
   
-  .Contact .error {
+error {
     color: red;
     font-size: 14px;
     margin-top: -10px;

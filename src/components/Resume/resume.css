@@ -1,0 +1,37 @@
+
+
+
+.resume div {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+ .resume p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+ .resume ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#a {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: lightgray;
+    color: darkslategrey;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#a:hover{
+    background-color: olivedrab;
+}

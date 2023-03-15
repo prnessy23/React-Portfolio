@@ -1,10 +1,65 @@
 .ml-auto {
     display: flex;
     align-items: center;
+    background-color: darkgray;
     gap: 15px;
+    font-size: 30px;
 }
 
 .ml-auto > a {
-    text-decoration: none;
+    text-decoration: none; 
     color: black;
+    font-size: 30px;
+}
+
+.ml-auto > a:hover {
+  color: #000;
+}
+
+#title {
+  font-size: 30px;
+  text-decoration: none;
+  
+}
+/* styles for the navbar */
+.navbar {
+  background-color: darkgray; /* set the background color */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* add a subtle shadow */
+  padding: 10px 20px; /* add some padding */
+}
+
+.navbar > a {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-size: 48px !important; /* increase the font size */
+}
+
+.nav-link {
+  font-size: 18px; /* increase the font size */
+  margin-left: 20px; /* add some spacing between links */
+  color:black; /* set the link color */
+}
+
+.nav-link:hover {
+  color: #000; /* set the link hover color */
+}
+
+.navbar-toggler {
+  border-color: #333; /* set the toggle button border color */
+}
+
+.navbar-toggler-icon {
+  background-color: #333; /* set the toggle button icon color */
+}
+
+.navbar-nav .nav-item:last-child .nav-link {
+  margin-right: 0; /* remove the right margin from the last link */
+}
+
+
+#header-title {
+    color: Black !important;
+    text-decoration: none !important;
 }
