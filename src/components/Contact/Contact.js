@@ -60,7 +60,11 @@ function Contact() {
       <textarea id="message" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
       {messageError && <p className='error'>{messageError}</p>}
     </div>
+    {/* <div>
+        <img className='forest-screenshot' src={Screenshot}></img>
+      </div> */}
     <button type="submit">Send</button>
+   
 
     </form>
     </section>
